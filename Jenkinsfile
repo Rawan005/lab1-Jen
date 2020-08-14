@@ -35,7 +35,7 @@ EOF
         }
         stage ('release') {
             environment {
-                CREDS = credentials('bryan-docker-hub-token')
+                CREDS = credentials('Rawan')
             }
             steps {
                 sh "whoami"
